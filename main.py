@@ -1,8 +1,10 @@
+
 # Constante con el nombre del fichero
 FILENAME = "150.csv"
 x=9
 y=3
 print(x/y)
+def nada():
 # Hago unos cuantos trucos para convertir los valores que vienen en el excel en numeros
 def to_number(value: str):
     value = value.replace(",", ".")
