@@ -54,6 +54,8 @@ def read_csv():
 
     # Llamo a la funcion que procesa las lines
     process_lines(lines)
+
+# Funcion para leer el fichero
 def read_csv():
 
     # Aca abro el fichero, obtengo todas las lineas y luego cierro el fichero
@@ -63,6 +65,8 @@ def read_csv():
 
     # Llamo a la funcion que procesa las lines
     process_lines(lines)
+
+
 
 # Este es el punto de entrada del programa
 if __name__ == "__main__":
