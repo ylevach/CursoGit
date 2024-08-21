@@ -55,16 +55,7 @@ def read_csv():
     # Llamo a la funcion que procesa las lines
     process_lines(lines)
 
-# Funcion para leer el fichero
-def read_csv():
 
-    # Aca abro el fichero, obtengo todas las lineas y luego cierro el fichero
-    f = open(FILENAME, "r")
-    lines = f.readlines()
-    f.close()
-
-    # Llamo a la funcion que procesa las lines
-    process_lines(lines)
 
 
 
