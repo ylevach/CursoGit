@@ -52,7 +52,7 @@ def read_csv():
     lines = f.readlines()
     f.close()
     f.close()
-
+    f.close()
     # Llamo a la funcion que procesa las lines
     process_lines(lines)
 
