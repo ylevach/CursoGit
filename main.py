@@ -52,8 +52,9 @@ def read_csv():
     lines = f.readlines()
     f.close()
 
- 
-
+    f = open(FILENAME, "r")
+    lines = f.readlines()
+    f.close()
 
 
 # Este es el punto de entrada del programa
